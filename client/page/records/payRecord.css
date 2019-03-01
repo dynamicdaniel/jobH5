@@ -1,0 +1,31 @@
+.itemrecord {
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+}
+
+.recordinfo {
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: column;
+    color: #333333;
+}
+
+.record_storename {
+    font-size: 17px;
+    color: #000000;
+    margin-bottom: 10px;
+}
+
+.record_time{
+    font-size: 15px;
+    color: #999999;
+}
+
+.recordprice {
+    color: #3599d7;
+    font-size: 18px;
+}

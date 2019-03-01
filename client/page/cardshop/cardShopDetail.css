@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.allview222 {
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+    overflow-y: hidden;
+}
+
+.scview1 {
+    width: 100%;
+    flex: 1;
+    display: flex;
+    margin-bottom: 60px;
+    flex-direction: column;
+    overflow: scroll;
+}
+
+.cardview {
+    width: 100%;
+}
+
+.lable {
+    height: 50px;
+    background-color: #f8f8f8;
+    display: flex;
+    font-display: row;
+    align-items: center;
+    padding-left: 20px;
+    color: #bfbfbb;
+}
+
+.detailimg {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.detailimg > img{
+    width: 100%;
+    height: auto;
+}
+
+.detail {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 20px;
+    color: #333333;
+}
+
+.bottomView {
+     /* position: fixed; */
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    /* // left: 0px;
+    // bottom: 0px;
+    // width: 100%; */
+    height: 60px;
+    width: 100%;
+    background-color: #f7f7f7;
+    /* // z-index: 9999; */
+}
+
+.bottomViewCenter {
+   position: fixed;
+   display: flex;
+   justify-content: center;
+   flex-direction: row;
+   align-items: center;
+   bottom: 0px;
+   height: 60px;
+   width: 100%;
+   background-color: #f7f7f7;
+}
+
+.bottomView .points {
+    color: #f23423;
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+.bottomView .btnview {
+    display: flex;
+    margin-right: 20px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: dodgerblue;
+    color: white;
+    width: 120px;
+    height: 40px;
+    border-radius: 20px;
+}
+
+.getcarddialog {
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.getcardlogo {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    margin-right: 15px;
+}
+
+.getcarddialog div {
+    font-size: 16px;
+    color: white;
+}

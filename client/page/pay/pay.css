@@ -1,0 +1,301 @@
+.home-container {
+    background-color: #eeeeee;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 0px;
+    bottom: 0px;
+    width: 100%;
+}
+
+.shop_container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 24px;
+    margin-right: 24px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.shop_container .shoplogo {
+    width: 40px;
+    height: 40px;
+    margin-right: 14px;
+}
+
+.shop_container .shopname {
+    font-size: 20px;
+    flex: 1;
+    font-weight: bold;
+}
+
+.shop_container .changshop {
+    color: #e88687;
+    font-size: 15px;
+    text-decoration: underline;
+}
+
+.price_container {
+    border-radius: 4px;
+    border-width: 2px;
+    border-color: #dedcdc;
+    border-style: solid;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 60px;
+    background-color: white;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 14px;
+    padding-left: 14px;
+    padding-right: 14px;
+}
+
+.price_container .pricelable {
+    color: #cccccc;
+    font-size: 18px;
+}
+
+.price_container .input {
+    flex: 1;
+    text-align: right;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-weight: bold;
+    font-size: 20px;
+    color: #333333;
+}
+
+.price_container .rmb {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+}
+
+.userleve {
+    width: 100%;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.userleve text {
+    font-size: 15px;
+    color: #999999;
+}
+
+/* 支付方式 */
+.paytype {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.paytype .payname {
+    color: #333333;
+    font-size: 15px;
+    margin-right: 5px;
+}
+
+.paytype .changepay {
+    color: #e88687;
+    font-size: 18px;
+}
+
+table {
+    width: 100%;
+    height: 40%;
+    position: absolute;
+    bottom: 0;
+    background-color: #eeeeee;
+}
+
+table tr td {
+    text-align: center;
+    width: 1.88rem;
+    height: 1rem;
+    font-family: "Microsoft YaHei";
+    font-weight: normal;
+    border-right: 1px solid #D9D9D9;
+    border-top: 1px solid #D9D9D9;
+}
+
+table tr td:active {
+    background-color: #ECECEC;
+}
+
+.payinfo {
+    display: none;
+}
+
+.paynum {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #424857;
+}
+
+.payzero {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #424857;
+}
+
+.paypoint {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #424857;
+}
+
+.keybord-return {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.keybord-img {
+    width: 1.88rem;
+    height: 1.26rem;
+}
+
+.pay {
+    color: #ffffff;
+    font-size: 0.3rem;
+    background-color: #1cbd32;
+}
+
+.pay:active {
+    background-color: #D9D9D9;
+}
+
+.pay a {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    text-decoration: none;
+}
+
+.pay p {
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+}
+
+.a-pay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.pay-disabled {
+    background-color: #D9D9D9;
+}
+
+.popup-list .am-list-body {
+    height: 210px;
+    overflow: auto;
+}
+
+.listview {
+    display: flex;
+    flex-direction: column;
+}
+
+.listitem {
+    display: flex;
+    flex-direction: row;
+}
+
+.head {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #cccccc;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #333;
+    font-size: 20px;
+    font-weight: bold;
+    height: 48px;
+}
+
+.foot {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #eeeeee;
+    justify-content: center;
+    color: #666666;
+    font-size: 20px;
+    font-weight: bold;
+    height: 48px;
+    border-top: 1px solid #eeeeee;
+}
+
+.listitem {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    flex-direction: row;
+    border-top: 1px solid #eeeeee;
+}
+
+.icon {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.subitem {
+    margin-left: 20px;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.subitem .storename {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.subitem .storeaddress {
+    text-align: left;
+    font-size: 18px;
+}
+
+.coupon {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+
+.payitemview {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}

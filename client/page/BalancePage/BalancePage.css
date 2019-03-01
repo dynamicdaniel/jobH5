@@ -1,0 +1,73 @@
+html, body, #balance{
+    height: 100%;
+}
+
+.balance-page {
+    height: 100%;
+    overflow: auto;
+}
+
+.top-board{
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100vw;
+    height: 44vw;
+    color: white;
+    padding-top: 60px;
+    box-sizing: border-box;
+}
+
+.top-board-title{
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+.top-board-money{
+    text-align: center;
+    margin-top: 4px;
+}
+
+.top-board-unit{
+    font-size: 1.2rem;
+    margin-right: 8px;
+}
+
+.top-board-value{
+    font-size: 1.5rem;
+}
+
+.top-board-btn{
+    display: flex;
+    display: -webkit-flex;
+    justify-content: flex-end;
+    -webkit-justify-content: flex-end;
+    align-items: center;
+    -webkit-align-items: center;
+    padding: 4px 60px 4px;
+}
+
+.top-board-btn-value{
+    font-size: 1rem;
+    line-height: 20px;
+    margin-right: 4px;
+}
+
+.top-board-right-arrow{
+    width: 16px;
+    height: 16px;
+}
+.roating{
+    transform: rotateZ(90deg);
+}
+.inputSelect{
+    border:1px solid #ef7460
+}
+.inputnoSelect{
+    
+    border:1px solid #f1f1f1
+}
+.am-tabs-pane-wrap-active{
+    height: 100% !important;
+}
+

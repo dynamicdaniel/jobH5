@@ -1,0 +1,45 @@
+.item {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    background-color: #f8f8f8;
+}
+
+.item .itemView {
+    display: flex;
+    flex-direction: column;
+    height: 120px;
+    background-color: white;
+}
+
+.logo {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border-width: 1px;
+    border-color: white;
+    border-style: solid;
+    margin-right: 20px;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    background-position: center center;
+
+}
+
+.brand {
+    height: 40px;
+    width: 100%;
+    background-color: white;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.title {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}

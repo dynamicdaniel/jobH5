@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.shareRecord {
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: column;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+    overflow-y: hidden;
+    top: 0px;
+    bottom: 0px;
+    background-color: #3599d7;
+}
+
+.sharedata {
+    margin: 10px;
+    border-radius: 5px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+    padding-left: 10px;
+    padding-right: 10px;
+    align-items: center;
+}
+
+.dataitem {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.dataitemkey {
+    color: #666666;
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+
+.lline {
+    width: 1px;
+    height: 60px;
+    background-color: #ebebee;
+}
+
+.lstdata {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    background-color: white;
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: column;
+    height: 100%;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.shareuserlogo {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.shareuseritem {
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 10px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-right: 10px;
+}
+
+
+.shareuserinfo {
+    display: flex;
+    flex-direction: column;
+}
+
+.shareuser_name {
+    font-size: 14px;
+    color: #333333;
+    margin-bottom: 8px;
+}
+
+.shareuser_time {
+    font-size: 12px;
+    color: #666666;
+}

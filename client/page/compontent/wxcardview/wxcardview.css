@@ -1,0 +1,65 @@
+.padview {
+    display: flex;
+    display: -webkit-box;
+    flex-direction: row;
+    background-color: white;
+    padding-left: 18px;
+    padding-right: 18px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+
+.cardViewStyle {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 10px;
+    height: 160px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.cardInfoStyle {
+    display: flex;
+    flex-direction: row;
+    height: 80px;
+    align-items: center;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.cardLogoStyle {
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+
+.shopInfoStyle {
+    display: flex;
+    flex-direction: column;
+}
+
+.shopInfoStyle .shopname{
+    color: white;
+    font-size: 18px;
+}
+
+.shopInfoStyle .cardname {
+    color: white;
+    font-size: 14px;
+}   
+
+.cardNoStyle {
+    font-size: 18px;
+    display: flex;
+    flex-direction: row;
+    color: white;
+    padding-left: 15px;
+    padding-right: 15px;
+}

@@ -1,0 +1,48 @@
+.userecord_item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.userecord_left {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+}
+
+.userecord_logo {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.userecord_info{
+    display: flex;
+    align-self: center;
+    flex-direction: column;
+    height: 40px;
+    justify-content: space-between;
+}
+
+.userecord_info div{
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.userecord_info span {
+    font-size: 14px;
+}
+
+.userecord_right {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.lsthead {
+    color: #666666;
+}

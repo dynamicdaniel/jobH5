@@ -1,0 +1,30 @@
+module.exports = app => {
+  const { router, controller } = app;
+  //  router.get('/testsvc',controller.testsvc.index);
+  router.get("/testReady", controller.testReady.index);
+  router.get("/authopen", controller.authopenid.index);
+  router.get("/qrpay", controller.qrpay.index);
+  router.get("/scoreshop", controller.numcard.scoreshop);
+  router.get("/bindMiniPublic", controller.bindMiniPublic.index);
+  router.get("/auth", controller.authOpen.index);
+  router.get("/authMain", controller.authOpen.authMain);
+  router.get("/authali", controller.authAli.index);
+  router.post("/api", controller.api.index);
+  router.post("/mapi/getJsConfig", controller.api.getJsConfig);
+  router.get("/test", controller.activityuser.index);
+  router.get("/activityuser", controller.activityuser.index);
+  router.get("/balance", controller.balancepage.index);
+  router.get("/channel", controller.channel.index);
+  router.get("/channelnumcard", controller.numcard.index);
+  router.get("/channelNumcardDetail", controller.numcard.channelNumcardDetail);
+  router.get("/topbar", controller.topbars.index);
+  router.get("/payresult", controller.payResult.index);
+  router.get("/trade/alipay", controller.trade.alipay);
+  router.get("/bandUser", controller.banduser.index);
+  // 微信绑定代理商管理员页面
+  router.get("/bindAgentAdmin", controller.banduser.bindAgentAdmin);
+  router.get("/recvCard", controller.recvCard.index);
+  router.get("/share", controller.share.index);
+  router.get("/weixinpay", controller.weixinpay.index);
+  router.get("/*", controller.home.index);
+};

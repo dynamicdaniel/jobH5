@@ -1,0 +1,89 @@
+.listview {
+    display: flex;
+    flex-direction: column;
+}
+
+.listitem {
+    display: flex;
+    flex-direction: row;
+}
+
+.head {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: #eee;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #333;
+    font-size: 20px;
+    font-weight: bold;
+    height: 50px;
+}
+
+.foot {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: white;
+    justify-content: center;
+    color: #666666;
+    font-size: 20px;
+    font-weight: bold;
+    height: 48px;
+    border-top: 1px solid #eeeeee;
+}
+
+.listitem {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    flex-direction: row;
+    border-top: 1px solid #eeeeee;
+}
+
+.icon {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.subitem {
+    margin-left: 20px;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.subitem .storename {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.subitem .storeaddress {
+    text-align: left;
+    font-size: 18px;
+}
+
+.banner {
+    width: 100%;
+    height: 210px;
+    background-image: url('http://read.html5.qq.com/image?src=forum&q=5&r=0&imgflag=7&imageUrl=http://mmbiz.qpic.cn/mmbiz_png/YjEaxjkhsMDOHLSTjz48HpBQk9vIic2VDic6iba4cQNSYas2stNjFibZ4ibRib5cYJ5ibrf4Yichz0XmrFV5NPjibK26icicA/0');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.logo {
+    width: 60px;
+    height: 60px;
+    margin-left: 30px;
+}

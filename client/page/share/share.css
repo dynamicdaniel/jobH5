@@ -1,0 +1,181 @@
+.allview11 {
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+    overflow-y: hidden;
+}
+
+.shareBtnStyle {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 40px;
+    margin-bottom: 10px;
+}
+
+.shareBtn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 140px;
+    height: 40px;
+    color: white;
+    border-radius: 3px;
+    background-color: green;
+}
+
+.shareTipsStyle {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.shareTipsStyle .title {
+    display: flex;
+    align-items: center;
+    height: 40px;
+    flex-direction: row;
+    justify-content: center;
+    width: 50%;
+    font-size: 16px;
+    color: #333333;
+}
+
+.pictxtStyle {
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: column;
+    background-color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.pictxtitem {
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.shareImgStyle {
+    width: 80%;
+}
+
+.shareTxtStyle {
+    color: #333333;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.lable {
+    height: 50px;
+    background-color: #f8f8f8;
+    display: flex;
+    font-display: row;
+    align-items: center;
+    padding-left: 20px;
+    color: #bfbfbb;
+}
+
+.shareinfo {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.detailStyle {
+    display: flex;
+    flex-direction: column;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.detailItemStyle {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 10px;
+
+}
+
+.detailKey {
+    width: 100px;
+    font-size: 14px;
+}
+
+.detailValue {
+    font-size: 14px;
+    flex: 1;
+}
+
+.storeLstStyle {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.storeItemStyle {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #eeeeee;
+}
+
+.storeInfoStyle {
+    display: flex;
+    flex-direction: column;
+}
+
+.storeNameStyle {
+    font-weight: bold;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.storeAddressStyle {
+    font-size: 12px;
+}
+
+.storeLocationLogo {
+    height: 20px;
+    width: 20px;
+}
+
+.sharebg {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 1) url('https://ybimage.yishouyun.net/h5/bg_share.png') no-repeat
+}
+
+.shareimg {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    height: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}

@@ -1,0 +1,38 @@
+
+.allview223 {
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+.cardview2 {
+    margin: 10px;
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: white;
+}
+
+.nbc_xx {
+    height: 1px;
+    border: none;
+    border-top: 1px dashed #333333;
+}
+
+.qrview {
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.qrlogo {
+    width: 250px;
+    height: 250px;
+}

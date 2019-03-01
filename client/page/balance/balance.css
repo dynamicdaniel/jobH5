@@ -1,0 +1,138 @@
+body {
+    background-color: #ffffff;
+    margin: 0px;
+}
+
+.top {
+    width: 100%;
+    height: 160px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+
+.topnew {
+    width: 100%;
+    height: 160px;
+    display: flex;
+    align-self: center;
+    flex-direction: row;
+    justify-content: space-between;
+    background: #ffffff url('http://ybimage.yishouyun.net/h5/img_balance.png') no-repeat center;
+}
+
+.moneyinfo {
+    display: flex;
+    flex-direction: column;
+    margin-left: 42px;
+    margin-top: 32px;
+    color: #ffffff;
+}
+
+.incard {
+    display: flex;
+    flex-direction: row;
+    align-self: flex-end;
+    color: white;
+    margin-right: 42px;
+    align-items: center;
+    margin-bottom: 28px;
+}
+
+.incard div{
+    font-size: 17px;
+}
+
+.incard .icon {
+    width: 16px;
+    height: 16px;
+}
+
+.moneyinfo .dev1 {
+    font-size: 13px;
+    line-height: 15px;
+}
+
+.moneyinfo .dev2 {
+    font-size: 30px;
+}
+
+
+.logo {
+    width: 60px;
+    height: 60px;
+    margin-left: 30px;
+}
+
+.cardinfo {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    color: white;
+}
+
+.cardinfo div {
+    margin-top: 3px;
+    margin-bottom: 3px;
+    font-size: 16px;
+}
+
+.line {
+    height: 1px;
+    width: 100%;
+    background-color: white;
+}
+
+.balance {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 60px;
+    background-color: green;
+}
+
+.balance .line {
+    width: 1px;
+    background-color: white;
+    height: 60px;
+}
+
+.balance .balance-item {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 14px;
+}
+
+.balance-item .value {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.balance-item .tip {
+    font-size: 14px;
+}
+
+.itembar {
+    height: 48px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 1px;
+    font-size: 14px;
+    color: #333333;
+    border-bottom: #cccccc 1px solid;
+}
+
+.itembar .icon {
+    width: 14px;
+    height: 14px;
+}

@@ -1,0 +1,47 @@
+.home-container {
+    background-color: #dddddd;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 0px;
+    bottom: 0px;
+    width: 100%;
+}
+
+.price_container {
+    border-radius: 4px;
+    border-width: 2px;
+    border-color: #abcdef;
+    border-style: solid;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 60px;
+    background-color: white;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 14px;
+    padding-left: 14px;
+    padding-right: 14px;
+}
+
+.price_container .pricelable {
+    color: #cccccc;
+    font-size: 18px;
+}
+
+.price_container .input {
+    flex: 1;
+    text-align: right;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-weight: bold;
+    font-size: 20px;
+    color: #333333;
+}
+
+.price_container .rmb {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+}

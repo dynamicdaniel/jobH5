@@ -1,0 +1,126 @@
+.balance-charge-page{
+    padding: 0 16px;
+}
+
+.store-picker-node{
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    position: relative;
+    /* padding: 0 16px; */
+    box-sizing: border-box;
+}
+
+.store-picker-text:nth-child(1){
+    height: 100%;
+    line-height: 40px;
+    float: left;
+    margin-right: 16px;
+}
+
+.store-picker-text:nth-child(2) {
+    height: 100%;
+    line-height: 40px;
+    float: left;
+}
+
+.store-picker-btn{
+    height: 100%;
+    line-height: 40px;
+    float: right;
+    color: #EF7460;
+}
+
+.custom-balance-input{
+
+}
+
+.custom-balance-input span {
+
+}
+
+.custom-balance-input input{
+
+}
+
+.balance-grid{
+    width: 100%;
+}
+
+.balance-grid:after{
+    visibility: hidden;
+    display: block;
+    height: 0;
+    font-size: 0;
+    content: '\0020';
+    clear: both;
+}
+
+.balance-grid-item{
+    display: inline-block;
+    width: 30%;
+    float: left;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    height: 80px;
+    position: relative;
+}
+
+.balance-grid-item-value{
+    padding: 8px 16px 4px;
+    font-size: 1rem;
+}
+
+.balance-grid-item-amount{
+    padding: 4px 16px;
+    font-size: 0.8rem;
+}
+
+.balance-grid-item-checked{
+    position: absolute;
+    top: 4px;
+    right: 8px;
+    width: 16px;
+    height: 16px;
+}
+
+.balance-charge-page-pay-btn{
+    width: 70%;
+    margin: 16px 15%;
+    color: white;
+    background-color: #EF7460;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 25px;
+    box-shadow: none;
+    font-size: 1.2rem;
+    text-space: 4px;
+}
+
+.balance-charge-page-pay-btn:hover{
+    background-color: #EF7460;
+}
+
+.balance-charge-page-pay-btn:checked{
+    background-color: #EF7460;
+}
+
+.balance-charge-page-pay-btn:active{
+    background-color: #EF7460;
+}
+
+.balance-hint{
+
+}
+
+.balance-hint-title{
+    font-size: 1.2rem;
+    border-left: solid 4px #EF7460;
+    padding: 4px 16px;
+}
+
+.balance-hint-list{
+    padding: 0;
+    list-style: none;
+}

@@ -1,0 +1,88 @@
+.bandview{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.band_shopname {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 23px;
+    color: #333333;
+}
+
+.band_itemview {
+    display: flex;
+    flex-direction: row;
+    height: 48px; 
+    width: 80%;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: white;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.band_code_view {
+    display: flex;
+    flex-direction: row;
+    height: 48px; 
+    width: 80%;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: white;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    
+}
+
+.band_itemviewTop {
+    display: flex;
+    flex-direction: row;
+    height: 48px; 
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    width: 80%;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: white;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.band_line {
+    height: 1px;
+    background-color: #eeeeee;
+}
+
+.band_itemviewBottom {
+    display: flex;
+    flex-direction: row;
+    height: 48px; 
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    width: 80%;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: white;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn_band { 
+    width: 90%;
+    margin-top: 10px;
+}
+
+.btn_band_cancel {
+    width: 90%;
+    margin-top: 10px;
+}
+
+.band_redtxt {
+    color: brown;
+}
